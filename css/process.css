@@ -1,0 +1,127 @@
+/* css/process.css */
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  background-color: #fffefb;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.8;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fffefb;
+  border-bottom: 1px solid #eee;
+  z-index: 999;
+}
+
+
+.logo {
+  font-weight: 600;
+  font-size: 1.4rem;
+  padding: 1.2rem 1.5rem;
+  color: #4a3f35;
+}
+
+.navbar .menu {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0 1.5rem;
+  gap: 1.5rem;
+}
+.navbar .menu_item a {
+  text-decoration: none;
+  color: #4a3f35;
+  font-weight: 500;
+  padding: 1.2rem 0.5rem;
+}
+
+.navbar .menu_item a.active {
+  border-bottom: 2px solid #c4a484;
+}
+
+main {
+  padding-top: 100px;
+}
+
+.process-section {
+  font-family: "Cormorant Garamond", serif;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+.process-section h1 {
+  font-size: 2rem;
+  color: #212121;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.intro-text {
+  text-align: center;
+  color: #3e2c41;
+  margin-bottom: 3rem;
+  font-size: 1.1rem;
+}
+
+.process-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.step h2 {
+  font-size: 1.4rem;
+  color: #d8a39d;
+  margin-bottom: 0.5rem;
+}
+
+.step p {
+  color: #212121;
+  font-size: 1rem;
+  margin: 0;
+}
+
+
+footer {
+  background-color: var(--accent-color);
+  color: var(--light-text);
+  padding: 3rem 0;
+  text-align: center;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.footer-logo {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  letter-spacing: 2px;
+}
+
+.social-links {
+  margin-bottom: 1.5rem;
+}
+
+.social-links a {
+  display: inline-block;
+  margin: 0 10px;
+  color: var(--light-text);
+  font-size: 1.2rem;
+  transition: var(--transition);
+}
+
+.social-links a:hover {
+  color: var(--sub-color-1);
+  transform: translateY(-3px);
+}
+
+.copyright {
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+
+  
